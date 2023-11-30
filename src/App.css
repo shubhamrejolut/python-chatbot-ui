@@ -1,0 +1,110 @@
+.App {
+  /* text-align: center; */
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  gap: 5px;
+}
+
+.mainContainer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.input {
+  /* position: absolute; */
+  /* bottom: 18px; */
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 4px;
+}
+
+.container_one {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* overflow-y: scroll; */
+  /* height: 70vh; */
+  width: 56vw;
+  background-color: #3a3937;
+  border-radius: 6px;
+}
+
+.text {
+  width: 40%;
+  color: white;
+}
+
+.input-text {
+  height: 100% !important;
+  padding: 0 !important;
+  border-color: #6767674d !important;
+  border-radius: 25px !important;
+}
+
+.__input {
+  border-radius: 16px !important;
+  height: 50px !important;
+  /* background-color: #262626 !important; */
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  color: white !important;
+  width: 47%;
+  border: 1px solid white;
+
+  fieldset {
+    border-color: #262626 !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+/* .scroll_display {
+  &::-webkit-scrollbar {
+    width: 3px !important;
+    height: 5px;
+    cursor: pointer !important;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    cursor: pointer !important;
+    background: #999999 !important;
+  }
+} */
+
+.owner_text {
+  /* width: 80%; */
+  overflow: scroll;
+}
+
+.ai_text {
+  /* width: 80%; */
+  overflow: scroll;
+  margin-top: 20px !important;
+  background-color: #201f1f;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.response_container {
+  /* margin-top: 40px !important; */
+}
